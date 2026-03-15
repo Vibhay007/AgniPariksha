@@ -1,0 +1,118 @@
+/* Page layout */
+
+.problems-page{
+max-width:1100px;
+margin:auto;
+padding:50px 20px;
+}
+
+/* Heading */
+
+.problems-heading{
+font-size:36px;
+margin-bottom:40px;
+text-align:center;
+
+background:linear-gradient(90deg,#fff,#ccc,#999,#fff);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+/* Grid for problems */
+
+.problems-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+/* Selected Problem Page */
+
+.problem-page{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+/* Coding Layout */
+
+.coding-layout{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+/* Problem Panel */
+
+.problem-panel{
+background:#111;
+border:1px solid #2a2a2a;
+border-radius:14px;
+padding:25px;
+height:500px;
+overflow:auto;
+}
+
+/* Editor Panel */
+
+.editor-panel{
+background:#111;
+border:1px solid #2a2a2a;
+border-radius:14px;
+padding:20px;
+}
+
+/* Execution Panel */
+
+.execution-panel{
+margin-top:20px;
+background:#111;
+border:1px solid #2a2a2a;
+border-radius:12px;
+padding:20px;
+}
+
+/* Problem Title */
+
+.problem-title{
+font-size:28px;
+margin-bottom:15px;
+color:white;
+}
+
+/* Problem Description */
+
+.problem-desc{
+color:#cfcfcf;
+line-height:1.6;
+margin-bottom:25px;
+}
+
+/* Back Button */
+
+.back-btn{
+margin-top:20px;
+padding:10px 22px;
+
+border:none;
+border-radius:8px;
+
+background:linear-gradient(90deg,#444,#222);
+color:white;
+
+cursor:pointer;
+transition:0.3s;
+}
+
+.back-btn:hover{
+background:linear-gradient(90deg,#666,#333);
+}
+
+/* Loading text */
+
+.loading{
+text-align:center;
+font-size:18px;
+color:#aaa;
+margin-top:60px;
+}
