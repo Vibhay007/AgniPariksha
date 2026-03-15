@@ -50,16 +50,21 @@ function Recruiter() {
 
       <div className="recruiter-card">
 
-        <h2>Recruiter Verification</h2>
+        <h2 className="recruiter-title">Recruiter Verification</h2>
 
         <input
+          className="recruiter-input"
           type="text"
           placeholder="Enter developer wallet address"
           value={wallet}
           onChange={e => setWallet(e.target.value)}
         />
 
-        <button onClick={verify} disabled={loading}>
+        <button
+          className="recruiter-btn"
+          onClick={verify}
+          disabled={loading}
+        >
           {loading ? "Verifying..." : "Verify"}
         </button>
 
